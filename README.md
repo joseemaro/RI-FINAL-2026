@@ -162,7 +162,7 @@ Para cambiar la ubicación del dataset, editar `DATASET_DIR` en cada script.
 | CLIP modelo | ViT-B-16 | Encoder principal |
 | CLIP ablación | ViT-L-14 | Encoder alternativo |
 | Queries base | 10 STEM | Evaluación principal |
-| Queries total | 50 STEM | Exp. complementarios |
+| Queries total | 1000 STEM | Exp. complementarios |
 
 ---
 
