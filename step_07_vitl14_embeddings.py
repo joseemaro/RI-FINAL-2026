@@ -5,7 +5,7 @@ Genera embeddings CLIP con ViT-L/14 para las mismas 10,000 imágenes,
 permitiendo comparar ViT-B/16 vs ViT-L/14 en Experimento 1.
 
 Entrada:  v2_targets_10k.pkl (contiene _parquet_idx y _row_idx)
-          Dataset parquets en I:\RIFINALV3\ (para re-cargar imágenes)
+          Dataset parquets en I:\RIFINALV4\ (para re-cargar imágenes)
 Salida:   vitl14_img_embeddings_10k.npy
           vitl14_txt_embeddings_10k.npy
 
@@ -27,7 +27,7 @@ from io import BytesIO
 # ══════════════════════════════════════════════════════════════
 # CONFIGURACIÓN
 # ══════════════════════════════════════════════════════════════
-BASE_DIR = r"I:\RIFINALV3"
+BASE_DIR = r"I:\RIFINALV4"
 DATASET_DIR = BASE_DIR                    
 OUTPUT_DIR = os.path.join(BASE_DIR, "vqmin_outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)

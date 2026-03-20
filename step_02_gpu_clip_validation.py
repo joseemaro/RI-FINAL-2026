@@ -20,7 +20,7 @@ from io import BytesIO
 # ══════════════════════════════════════════════════════════════
 # CONFIGURACIÓN
 # ══════════════════════════════════════════════════════════════
-DATASET_DIR = r"I:\RIFINALV3"
+DATASET_DIR = r"I:\RIFINALV4"
 OUTPUT_DIR = os.path.join(DATASET_DIR, "vqmin_outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 

@@ -24,7 +24,7 @@ from collections import Counter, deque
 # ══════════════════════════════════════════════════════════════
 # CONFIGURACIÓN
 # ══════════════════════════════════════════════════════════════
-BASE_DIR = r"I:\RIFINALV3"
+BASE_DIR = r"I:\RIFINALV4"
 OUTPUT_DIR = os.path.join(BASE_DIR, "vqmin_outputs")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
